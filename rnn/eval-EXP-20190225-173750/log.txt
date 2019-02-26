@@ -1,0 +1,4 @@
+2019-02-25 17:38:00,284 Args: Namespace(alpha=0, arch='DARTS', batch_size=64, beta=0.001, bptt=35, clip=0.25, continue_train=False, cuda=True, data='../data/penn/', dropout=0.75, dropoute=0.1, dropouth=0.25, dropouti=0.2, dropoutx=0.75, emsize=850, epochs=8000, gpu=0, log_interval=200, lr=20, max_seq_len_delta=20, nhid=850, nhidlast=850, nonmono=5, save='eval-EXP-20190225-173750', seed=1267, single_gpu=True, small_batch_size=64, wdecay=8e-07)
+2019-02-25 17:38:00,285 Model total parameters: 22960000
+2019-02-25 17:38:00,285 Genotype: Genotype(recurrent=[('sigmoid', 0), ('relu', 1), ('relu', 1), ('identity', 1), ('tanh', 2), ('sigmoid', 5), ('tanh', 3), ('relu', 5)], concat=range(1, 9))
+2019-02-25 17:38:00,285 rolling back to the previous best model ...
