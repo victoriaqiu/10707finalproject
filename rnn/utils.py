@@ -6,7 +6,7 @@ from torch.autograd import Variable
 
 
 def repackage_hidden(h):
-    if type(h) == Variable:
+    if torch.is_tensor(h):
         return Variable(h.data)
     else:
         return tuple(repackage_hidden(v) for v in h)
